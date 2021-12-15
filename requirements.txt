@@ -13,3 +13,4 @@ lightgbm
 xgboost
 torch
 huggingface
+fasttext
