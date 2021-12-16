@@ -7,7 +7,7 @@
 
 ## Experiment Results
 ### UCI Machine Learning Repository: News Aggregator Data Set
-|手法 |val_acc |test_acc | val_roc_auc<br>(macro, 'ovo') | test_roc_auc<br>(macro, 'ovo') | val_logloss | test_logloss
+|method |val_acc |test_acc | val_roc_auc<br>(macro, 'ovo') | test_roc_auc<br>(macro, 'ovo') | val_logloss | test_logloss
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 |LSTM x GloVe |0.8898 | 0.8840 ||| | 
 |LSTM x w2v(googlenews) | | ||| | 
@@ -28,9 +28,13 @@
 |XGB x BERT(embedding) | | | | | |
 |CNN x  | |  | 0.5048 | | | 
 |Logistic Regression x TFIDF | 0.9139| 0.9304 ||| | 
-|SVM | |  | | | | 
+|SVM x TFIDF |0.8914 | 0.8855 |0.9586 | 0.9617| 0.3506| 0.3421
+|SVM x GloVe | 0.4993|0.4895 | 0.5152|0.5141 |1.2742 |1.2710
+|SVM x w2v(googlenews) |0.3952 | 0.3967|0.4853 |0.4996 |1.4341 |1.4375
+|SVM x fasttext |0.4094 |0.4027 |0.5291 | 0.5557|1.2694 |1.2437
+|SVM x BERT(embedding) | | | | | |
 |DistilBERT | 0.9102 | 0.8532 | 0.9784| 0.9808| 0.2509 | 0.2663
-|Naive Bayes | |  | | | | 
+|Naive Bayes x TFIDF | 0.8728| 0.8757 | 0.9489| 0.9606| 0.4428| 0.3952
 ## Future work
 - Run with multiple seeds, and comparison by medians of their accuracies.
 - Comparison using multiple datasets
