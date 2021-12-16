@@ -12,5 +12,5 @@ tensorflow_hub
 lightgbm
 xgboost
 torch
-huggingface
+transformers
 fasttext
