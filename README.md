@@ -15,7 +15,7 @@
 |RNN x GloVe || ||| | 
 |GRU x GloVe || ||| | 
 |BERT(bert-base-uncased) | | | |
-|RoBERTa(roberta-base-uncased) | 0.8428 | 0.8533 | | | | 
+|RoBERTa(roberta-base) | 0.8683 | 0.8570 | 0.9578| 0.9554| 0.3892| 0.3999
 |LGBM x TFIDF | 0.8787 | 0.8840 | 0.9515 | 0.9548 | 0.3889 | 0.3654
 |LGBM x GloVe | 0.7560 | 0.7635 | 0.8353| 0.8543 |0.7070 | 0.6685
 |LGBM x w2v(googlenews) |0.4835 | 0.5037 |0.5508 |0.5648 | 1.1765| 1.1567
