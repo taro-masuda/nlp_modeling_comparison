@@ -9,11 +9,15 @@
 ### UCI Machine Learning Repository: News Aggregator Data Set
 |method |val_acc |test_acc | val_roc_auc<br>(macro, 'ovo') | test_roc_auc<br>(macro, 'ovo') | val_logloss | test_logloss
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|LSTM x GloVe |0.8898 | 0.8840 ||| | 
+|LSTM x GloVe |0.9199 |0.9237 |0.9818|0.9850| 0.2664| 0.2202
 |LSTM x w2v(googlenews) | | ||| | 
 |LSTM x fasttext | | ||| | 
 |RNN x GloVe || ||| | 
+|RNN x w2v(googlenews) | | ||| | 
+|RNN x fasttext | | ||| | 
 |GRU x GloVe || ||| | 
+|GRU x w2v(googlenews) | | ||| | 
+|GRU x fasttext | | ||| | 
 |BERT(bert-base-uncased) | 0.9135 | 0.9237 | 0.9839 | 0.9774 | 0.2266 | 0.2470
 |RoBERTa(roberta-base) | 0.8683 | 0.8570 | 0.9578| 0.9554| 0.3892| 0.3999
 |LGBM x TFIDF | 0.8495 | 0.8608 | 0.9355 | 0.9467 | 0.4452 | 0.4065
