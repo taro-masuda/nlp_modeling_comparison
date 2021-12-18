@@ -14,7 +14,7 @@
 |LSTM x fasttext | | ||| | 
 |RNN x GloVe || ||| | 
 |GRU x GloVe || ||| | 
-|BERT(bert-base-uncased) | | | |
+|BERT(bert-base-uncased) | 0.9135 | 0.9237 | 0.9839 | 0.9774 | 0.2266 | 0.2470
 |RoBERTa(roberta-base) | 0.8683 | 0.8570 | 0.9578| 0.9554| 0.3892| 0.3999
 |LGBM x TFIDF | 0.8787 | 0.8840 | 0.9515 | 0.9548 | 0.3889 | 0.3654
 |LGBM x GloVe | 0.7560 | 0.7635 | 0.8353| 0.8543 |0.7070 | 0.6685
@@ -26,7 +26,7 @@
 |XGB x w2v(googlenews) |0.4004 |0.4266 |0.5017 |0.5171 |1.9219 | 1.8261
 |XGB x fasttext | 0.8728|0.8900  | 0.9476|0.9548 | 0.4293| 0.3723
 |XGB x BERT(embedding) | | | | | |
-|CNN x  | |  | 0.5048 | | | 
+|CNN x GloVe | |  | 0.5048 | | | 
 |Logistic Regression x TFIDF | 0.9139| 0.9304 ||| | 
 |SVM x TFIDF |0.8914 | 0.8855 |0.9586 | 0.9617| 0.3506| 0.3421
 |SVM x GloVe | 0.4993|0.4895 | 0.5152|0.5141 |1.2742 |1.2710
@@ -38,4 +38,5 @@
 ## Future work
 - Run with multiple seeds, and comparison by medians of their accuracies.
 - Comparison using multiple datasets
+- Comparison for regression problems including Lasso, Ridge and so forth.
 - Preperation for scripts using classes
