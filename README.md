@@ -10,7 +10,7 @@
 |method |val_acc |test_acc | val_roc_auc<br>(macro, 'ovo') | test_roc_auc<br>(macro, 'ovo') | val_logloss | test_logloss
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 |LSTM x GloVe |0.9199 |0.9237 |0.9818|0.9850| 0.2664| 0.2202
-|LSTM x w2v(googlenews) ||||||
+|LSTM x w2v(googlenews) |0.9064|0.9251|0.9812|0.9849|0.2655|0.2205
 |LSTM x fasttext |0.9132 | 0.9251|0.9788|0.9846|0.2775 | 0.2152
 |BERT(bert-base-uncased) | 0.9135 | 0.9237 | 0.9839 | 0.9774 | 0.2266 | 0.2470
 |RoBERTa(roberta-base) | 0.8683 | 0.8570 | 0.9578| 0.9554| 0.3892| 0.3999
