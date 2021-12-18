@@ -10,14 +10,8 @@
 |method |val_acc |test_acc | val_roc_auc<br>(macro, 'ovo') | test_roc_auc<br>(macro, 'ovo') | val_logloss | test_logloss
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 |LSTM x GloVe |0.9199 |0.9237 |0.9818|0.9850| 0.2664| 0.2202
-|LSTM x w2v(googlenews) | | ||| | 
-|LSTM x fasttext | | ||| | 
-|RNN x GloVe || ||| | 
-|RNN x w2v(googlenews) | | ||| | 
-|RNN x fasttext | | ||| | 
-|GRU x GloVe || ||| | 
-|GRU x w2v(googlenews) | | ||| | 
-|GRU x fasttext | | ||| | 
+|LSTM x w2v(googlenews) ||||||
+|LSTM x fasttext |0.9132 | 0.9251|0.9788|0.9846|0.2775 | 0.2152
 |BERT(bert-base-uncased) | 0.9135 | 0.9237 | 0.9839 | 0.9774 | 0.2266 | 0.2470
 |RoBERTa(roberta-base) | 0.8683 | 0.8570 | 0.9578| 0.9554| 0.3892| 0.3999
 |LGBM x TFIDF | 0.8495 | 0.8608 | 0.9355 | 0.9467 | 0.4452 | 0.4065
@@ -31,6 +25,8 @@
 |XGB x fasttext | 0.8728|0.8900  | 0.9476|0.9548 | 0.4293| 0.3723
 |XGB x BERT(embedding) | | | | | |
 |CNN x GloVe | |  | 0.5048 | | | 
+|CNN x w2v(googlenews) | |  |  | | | 
+|CNN x fasttext | |  |  | | | 
 |Logistic Regression x TFIDF | 0.8975| 0.8960 |0.9758 |0.9829 | 0.3873|0.3672
 |SVM x TFIDF |0.8795 | 0.8855 |0.9482 | 0.8757| 0.3977| 0.3734
 |SVM x GloVe | 0.4993|0.4895 | 0.5152|0.5141 |1.2742 |1.2710
