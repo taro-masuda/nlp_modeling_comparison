@@ -1,6 +1,6 @@
 # nlp_modeling_comparison
 - This repository shows some modeling examples about Natural Language Processing (NLP). All models and features are popularly used in Kaggle competition notebooks. You can compare multiple methods by a naive text classification experiment.
-- Reference (blog URL in Japanese) : (TBA)
+- Reference (blog URL in Japanese) : https://taro-masuda.hatenablog.com/entry/2021/12/19/020220
 ## Enviroments
 - w/o neural nets: built from Dockerfile
 - w/ neural nets: Google Colaboratory (GPU/TPU with high memory)
